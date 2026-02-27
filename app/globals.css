@@ -102,13 +102,13 @@ body {
   margin-bottom: 20px;
 }
 
-.social-icons {
+/* .social-icons {
   display: flex;
   justify-content: center;
   gap: 20px;
   margin-bottom: 20px;
   font-size: 18px;
-}
+} */
 
 .social-icons span {
   cursor: pointer;
@@ -119,6 +119,23 @@ body {
 .social-icons span:hover {
   color: #ff6a00;
 }
+
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.social-icons svg {
+  cursor: pointer;
+  color: #ffffff;   /* ขาว */
+  transition: 0.3s;
+}
+
+/* ถ้าไม่อยากให้เปลี่ยนสีตอน hover ก็ไม่ต้องใส่ */
 
 .hire-btn {
   width: 100%;

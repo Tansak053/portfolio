@@ -37,32 +37,60 @@ export default function HomePage() {
 
           <div className="social-icons">
 
-            <IoLogoFacebook
-              size={22}
-              className="text-white hover:text-blue-500 transition cursor-pointer"
-            />
+  <a
+    href="https://www.facebook.com/gard.tnasak.5/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <IoLogoFacebook
+      size={22}
+      className="text-white transition cursor-pointer"
+    /> 
+  </a>
 
-            <FaXTwitter
-              size={22}
-              className="text-white hover:text-orange-500 transition cursor-pointer"
-            />
+  <a
+    href="https://twitter.com"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaXTwitter
+      size={22}
+      className="text-white hover:text-orange-500 transition cursor-pointer"
+    />
+  </a>
 
-            <RiInstagramFill
-              size={22}
-              className="text-white hover:text-pink-500 transition cursor-pointer"
-            />
+  <a
+    href="https://instagram.com"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <RiInstagramFill
+      size={22}
+      className="text-white hover:text-pink-500 transition cursor-pointer"
+    />
+  </a>
 
-            <FaTelegram
-              size={22}
-              className="text-white hover:text-sky-400 transition cursor-pointer"
-            />
+  <a
+    href="https://t.me"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaTelegram
+      size={22}
+      className="text-white hover:text-sky-400 transition cursor-pointer"
+    />
+  </a>
 
-            <GrGoogle
-              size={22}
-              className="text-white hover:text-red-500 transition cursor-pointer"
-            />
+  <a
+    href="mailto:s6519410053@sau.ac.th"
+  >
+    <GrGoogle
+      size={22}
+      className="text-white hover:text-red-500 transition cursor-pointer"
+    />
+  </a>
 
-          </div>
+</div>
 
           <button className="hire-btn">
             HIRE ME !

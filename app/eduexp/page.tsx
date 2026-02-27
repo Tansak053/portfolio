@@ -35,28 +35,51 @@ export default function EduExpPage() {
           </p>
 
           <div className="social-icons">
-
-            <IoLogoFacebook
-              size={22}
-              className="text-white hover:text-blue-500 transition cursor-pointer"
-            />
-
-            <FaXTwitter
-              size={22}
-              className="text-white hover:text-orange-500 transition cursor-pointer"
-            />
-
-            <RiInstagramFill
-              size={22}
-              className="text-white hover:text-pink-500 transition cursor-pointer"
-            />
-
-            <FaTelegram
-              size={22}
-              className="text-white hover:text-sky-400 transition cursor-pointer"
-            />
-
-          </div>
+         
+         <a
+           href="https://www.facebook.com/gard.tnasak.5/"
+           target="_blank"
+           rel="noopener noreferrer"
+         >
+           <IoLogoFacebook
+             size={22}
+             className="text-white transition cursor-pointer"
+           /> 
+         </a>
+       
+         <a
+           href="https://twitter.com"
+           target="_blank"
+           rel="noopener noreferrer"
+         >
+           <FaXTwitter
+             size={22}
+             className="text-white hover:text-orange-500 transition cursor-pointer"
+           />
+         </a>
+       
+         <a
+           href="https://instagram.com"
+           target="_blank"
+           rel="noopener noreferrer"
+         >
+           <RiInstagramFill
+             size={22}
+             className="text-white hover:text-pink-500 transition cursor-pointer"
+           />
+         </a>
+       
+         <a
+           href="https://t.me"
+           target="_blank"
+           rel="noopener noreferrer"
+         >
+           <FaTelegram
+             size={22}
+             className="text-white hover:text-sky-400 transition cursor-pointer"
+           />
+         </a>
+       </div>
 
           <button className="hire-btn">
             HIRE ME !
